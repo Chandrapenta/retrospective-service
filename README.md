@@ -23,13 +23,14 @@ The Retrospective Service is a RESTful web service built using Java with Spring 
    git clone <repository-url>
 3. **Build the Project:**
    ```bash
-   cd retrospectiveservice
+   cd retrospective-service
    mvn clean install
  4. **Run the Application:**
-   ```bash
-   java -jar target/retrospectiveservice-<version>.jar6. **Access the Endpoints:**
+    open terminal
+   ./mvnw spring-boot:run
+5. **Access the Endpoints:**
 
-  5. **Create New Retrospective:**
+  **Create New Retrospective:**
      
      POST /retrospectives
      
